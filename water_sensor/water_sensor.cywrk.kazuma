@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="water_sensor\Design01\Source Files\main.c">
+<ExpandedNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\TopDesign</v>
+<v>water_sensor\Design01\Design01.cydwr</v>
+<v>water_sensor\Design01\Design01.cydwr\Pins</v>
+<v>water_sensor\Design01\Design01.cydwr\Analog</v>
+<v>water_sensor\Design01\Design01.cydwr\Clocks</v>
+<v>water_sensor\Design01\Design01.cydwr\Interrupts</v>
+<v>water_sensor\Design01\Design01.cydwr\DMA</v>
+<v>water_sensor\Design01\Design01.cydwr\System</v>
+<v>water_sensor\Design01\Design01.cydwr\Directives</v>
+<v>water_sensor\Design01\Design01.cydwr\Flash Security</v>
+<v>water_sensor\Design01\Design01.cydwr\EEPROM</v>
+<v>water_sensor\Design01\Header Files</v>
+<v>water_sensor\Design01\Header Files\cyapicallbacks.h</v>
+<v>water_sensor\Design01\Header Files\usb_io.h</v>
+<v>water_sensor\Design01\Source Files</v>
+<v>water_sensor\Design01\Source Files\main.c</v>
+<v>water_sensor\Design01\Source Files\usb_io.c</v>
+<v>water_sensor\Design01\Generated_Source</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1\UART_1.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1\UART_1.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1\UART_1_BOOT.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1\UART_1_INT.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1\UART_1_PM.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1_IntClock</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1_IntClock\UART_1_IntClock.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\UART_1_IntClock\UART_1_IntClock.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_level_Pin</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_level_Pin\water_level_Pin.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_level_Pin\water_level_Pin.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_level_Pin\water_level_Pin_aliases.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor\water_sensor.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor\water_sensor.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor\water_sensor_INT.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor\water_sensor_PM.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_Bypass</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_Bypass\water_sensor_Bypass.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_Bypass\water_sensor_Bypass.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_Bypass\water_sensor_Bypass_aliases.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_IRQ</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_IRQ\water_sensor_IRQ.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_IRQ\water_sensor_IRQ.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_theACLK</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_theACLK\water_sensor_theACLK.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\water_sensor_theACLK\water_sensor_theACLK.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydevice.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cyfitter.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cymetadata.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\project.h</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\TopDesign</v>
+<v>water_sensor\Design01\Design01.cydwr</v>
+<v>water_sensor\Design01\Design01.cydwr\Pins</v>
+<v>water_sensor\Design01\Design01.cydwr\Analog</v>
+<v>water_sensor\Design01\Design01.cydwr\Clocks</v>
+<v>water_sensor\Design01\Design01.cydwr\Interrupts</v>
+<v>water_sensor\Design01\Design01.cydwr\DMA</v>
+<v>water_sensor\Design01\Design01.cydwr\System</v>
+<v>water_sensor\Design01\Design01.cydwr\Directives</v>
+<v>water_sensor\Design01\Design01.cydwr\Flash Security</v>
+<v>water_sensor\Design01\Design01.cydwr\EEPROM</v>
+<v>water_sensor\Design01\Header Files</v>
+<v>water_sensor\Design01\Header Files\cyapicallbacks.h</v>
+<v>water_sensor\Design01\Header Files\usb_io.h</v>
+<v>water_sensor\Design01\Source Files</v>
+<v>water_sensor\Design01\Source Files\main.c</v>
+<v>water_sensor\Design01\Source Files\usb_io.c</v>
+<v>water_sensor\Design01\Generated_Source</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>water_sensor\Design01\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\TopDesign</v>
+<v>water_sensor\Design01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\TopDesign</v>
+<v>water_sensor\Design01\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\CortexM3</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_INT.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_IntClock.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_PM.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\usb_io.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_level_Pin.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_Bypass.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_INT.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_IRQ.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_PM.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_theACLK.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Design01.elf</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Design01.hex</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Design01.map</v>
+<v>water_sensor\Design01\Design01.gpdsc</v>
+<v>water_sensor\Design01\Design01.rpt</v>
+<v>water_sensor\Design01\Design01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\CortexM3</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_INT.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_IntClock.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_1_PM.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\usb_io.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_level_Pin.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_Bypass.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_INT.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_IRQ.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_PM.lst</v>
+<v>water_sensor\Design01\CortexM3\ARM_GCC_493\Debug\Listing Files\water_sensor_theACLK.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\PSoC 5LP Architecture TRM</v>
+<v>water_sensor\Design01\CY8C58LP Family Datasheet</v>
+<v>water_sensor\Design01\System Reference Guides</v>
+<v>water_sensor\Design01\System Reference Guides\cy_boot_v5_50</v>
+<v>water_sensor\Design01\ADC_SAR_v3_0.pdf</v>
+<v>water_sensor\Design01\cy_pins_v2_20</v>
+<v>water_sensor\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>water_sensor\Design01\UART_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>water_sensor</v>
+<v>water_sensor\Design01</v>
+<v>water_sensor\Design01\PSoC 5LP Architecture TRM</v>
+<v>water_sensor\Design01\CY8C58LP Family Datasheet</v>
+<v>water_sensor\Design01\System Reference Guides</v>
+<v>water_sensor\Design01\System Reference Guides\cy_boot_v5_50</v>
+<v>water_sensor\Design01\ADC_SAR_v3_0.pdf</v>
+<v>water_sensor\Design01\cy_pins_v2_20</v>
+<v>water_sensor\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>water_sensor\Design01\UART_v2_50.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Design01.cydsn\Design01.cydwr" />
+<name v=".\Design01.cydsn\main.c" />
+<name v=".\Design01.cydsn\usb_io.c" />
+<name v=".\Design01.cydsn\usb_io.h" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC5\water_sensor.c" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC5\water_level_Pin.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="908, 407" SelectedTabbedMdiWindow="42583913-e70e-4077-9376-9f7cbfd9380e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="e286c663-c3c1-4526-9de5-af1e774b9716" /><DocumentWindow Key="6f6ca541-d5e4-4b09-aafe-0c38627bc1c8" Guid="d4b183b5-4c33-45cc-b570-6eff39b70f18" /><DocumentWindow Key="5d5f0d54-5e3a-4e8e-8635-a1a6e7dd5491" Guid="6040aad0-00f9-4498-ae4e-d3bfa0ed081a" /><DocumentWindow Key="07908764-55cb-4c8d-98aa-0f569eda7442" Guid="42583913-e70e-4077-9376-9f7cbfd9380e" /><DocumentWindow Key="dec015b5-7e7b-4cb2-bdca-b9540feb2187" Guid="337d6129-ac8a-4598-8fea-8e9ab4ff4125" /><DocumentWindow Key="4c7d1272-16f2-4414-b340-907a8371caae" Guid="1be3059b-16e3-436d-9cab-7c580f04924f" /><DocumentWindow Key="7cad2fd7-82e0-46f4-a2bd-1e50321ed13c" Guid="1efcf618-8f8b-421b-b626-eaf4bacdc3ba" /><DocumentWindow Key="585ff96d-c5b0-4bea-b088-a38396f090d6" Guid="b1e53569-1c31-4001-b7e6-df1c7cc7d7a5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

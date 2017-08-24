@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|56f067c8-ee07-44d8-bc17-4007ec3e5c81
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|301869cd-c86d-43f6-a51e-41107a0bca49
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|32f05052-0ddd-46f8-b498-37eb30f1a919
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|525b1342-fc3f-4d76-b50e-935681670a85
+C:\Users\kazuma\Documents\PSoC Creator\water_sensor\Design01.cydsn\Design01.cyprj|64758616-1e0c-4057-9a11-8043b9c81036

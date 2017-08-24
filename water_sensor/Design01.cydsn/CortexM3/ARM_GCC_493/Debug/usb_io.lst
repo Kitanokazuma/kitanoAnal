@@ -1,0 +1,648 @@
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"usb_io.c"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              		.section	.text.usb_output,"ax",%progbits
+  19              		.align	2
+  20              		.global	usb_output
+  21              		.thumb
+  22              		.thumb_func
+  23              		.type	usb_output, %function
+  24              	usb_output:
+  25              	.LFB63:
+  26              		.file 1 "usb_io.c"
+   1:usb_io.c      **** /* ========================================
+   2:usb_io.c      ****  *
+   3:usb_io.c      ****  * Copyright YOUR COMPANY, THE YEAR
+   4:usb_io.c      ****  * All Rights Reserved
+   5:usb_io.c      ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:usb_io.c      ****  *
+   7:usb_io.c      ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:usb_io.c      ****  * WHICH IS THE PROPERTY OF your company.
+   9:usb_io.c      ****  *
+  10:usb_io.c      ****  * ========================================
+  11:usb_io.c      **** */
+  12:usb_io.c      **** #include <project.h>
+  13:usb_io.c      **** #include "usb_io.h"
+  14:usb_io.c      **** 
+  15:usb_io.c      **** void usb_output(char str[])
+  16:usb_io.c      **** {
+  27              		.loc 1 16 0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31              	.LVL0:
+  32 0000 08B5     		push	{r3, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 3, -8
+  35              		.cfi_offset 14, -4
+  17:usb_io.c      **** UART_1_PutString(str);
+  36              		.loc 1 17 0
+  37 0002 FFF7FEFF 		bl	UART_1_PutString
+  38              	.LVL1:
+  18:usb_io.c      **** UART_1_PutCRLF(1);
+  39              		.loc 1 18 0
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 2
+
+
+  40 0006 0120     		movs	r0, #1
+  41 0008 FFF7FEFF 		bl	UART_1_PutCRLF
+  42              	.LVL2:
+  43 000c 08BD     		pop	{r3, pc}
+  44              		.cfi_endproc
+  45              	.LFE63:
+  46              		.size	usb_output, .-usb_output
+  47 000e 00BF     		.text
+  48              	.Letext0:
+  49              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.0\\psoc creator\\import\\gnu\\arm\\4.9.
+  50              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.0\\psoc creator\\import\\gnu\\arm\\4.9.
+  51              		.file 4 "Generated_Source\\PSoC5/cytypes.h"
+  52              		.file 5 "Generated_Source\\PSoC5/core_cm3.h"
+  53              		.file 6 "Generated_Source\\PSoC5/UART_1.h"
+  54              		.section	.debug_info,"",%progbits
+  55              	.Ldebug_info0:
+  56 0000 3B010000 		.4byte	0x13b
+  57 0004 0400     		.2byte	0x4
+  58 0006 00000000 		.4byte	.Ldebug_abbrev0
+  59 000a 04       		.byte	0x4
+  60 000b 01       		.uleb128 0x1
+  61 000c B9000000 		.4byte	.LASF17
+  62 0010 01       		.byte	0x1
+  63 0011 93010000 		.4byte	.LASF18
+  64 0015 2E000000 		.4byte	.LASF19
+  65 0019 00000000 		.4byte	.Ldebug_ranges0+0
+  66 001d 00000000 		.4byte	0
+  67 0021 00000000 		.4byte	.Ldebug_line0
+  68 0025 02       		.uleb128 0x2
+  69 0026 01       		.byte	0x1
+  70 0027 06       		.byte	0x6
+  71 0028 7D010000 		.4byte	.LASF0
+  72 002c 02       		.uleb128 0x2
+  73 002d 01       		.byte	0x1
+  74 002e 08       		.byte	0x8
+  75 002f 47010000 		.4byte	.LASF1
+  76 0033 02       		.uleb128 0x2
+  77 0034 02       		.byte	0x2
+  78 0035 05       		.byte	0x5
+  79 0036 B1010000 		.4byte	.LASF2
+  80 003a 02       		.uleb128 0x2
+  81 003b 02       		.byte	0x2
+  82 003c 07       		.byte	0x7
+  83 003d 0E000000 		.4byte	.LASF3
+  84 0041 03       		.uleb128 0x3
+  85 0042 89010000 		.4byte	.LASF9
+  86 0046 02       		.byte	0x2
+  87 0047 3F       		.byte	0x3f
+  88 0048 4C000000 		.4byte	0x4c
+  89 004c 02       		.uleb128 0x2
+  90 004d 04       		.byte	0x4
+  91 004e 05       		.byte	0x5
+  92 004f 5A010000 		.4byte	.LASF4
+  93 0053 02       		.uleb128 0x2
+  94 0054 04       		.byte	0x4
+  95 0055 07       		.byte	0x7
+  96 0056 79000000 		.4byte	.LASF5
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 3
+
+
+  97 005a 02       		.uleb128 0x2
+  98 005b 08       		.byte	0x8
+  99 005c 05       		.byte	0x5
+ 100 005d 00000000 		.4byte	.LASF6
+ 101 0061 02       		.uleb128 0x2
+ 102 0062 08       		.byte	0x8
+ 103 0063 07       		.byte	0x7
+ 104 0064 8B000000 		.4byte	.LASF7
+ 105 0068 04       		.uleb128 0x4
+ 106 0069 04       		.byte	0x4
+ 107 006a 05       		.byte	0x5
+ 108 006b 696E7400 		.ascii	"int\000"
+ 109 006f 02       		.uleb128 0x2
+ 110 0070 04       		.byte	0x4
+ 111 0071 07       		.byte	0x7
+ 112 0072 21000000 		.4byte	.LASF8
+ 113 0076 03       		.uleb128 0x3
+ 114 0077 71000000 		.4byte	.LASF10
+ 115 007b 03       		.byte	0x3
+ 116 007c 2C       		.byte	0x2c
+ 117 007d 41000000 		.4byte	0x41
+ 118 0081 05       		.uleb128 0x5
+ 119 0082 6A010000 		.4byte	.LASF11
+ 120 0086 04       		.byte	0x4
+ 121 0087 9201     		.2byte	0x192
+ 122 0089 2C000000 		.4byte	0x2c
+ 123 008d 02       		.uleb128 0x2
+ 124 008e 04       		.byte	0x4
+ 125 008f 04       		.byte	0x4
+ 126 0090 9C010000 		.4byte	.LASF12
+ 127 0094 02       		.uleb128 0x2
+ 128 0095 08       		.byte	0x8
+ 129 0096 04       		.byte	0x4
+ 130 0097 63010000 		.4byte	.LASF13
+ 131 009b 05       		.uleb128 0x5
+ 132 009c B3000000 		.4byte	.LASF14
+ 133 00a0 04       		.byte	0x4
+ 134 00a1 A301     		.2byte	0x1a3
+ 135 00a3 A7000000 		.4byte	0xa7
+ 136 00a7 02       		.uleb128 0x2
+ 137 00a8 01       		.byte	0x1
+ 138 00a9 08       		.byte	0x8
+ 139 00aa 55010000 		.4byte	.LASF15
+ 140 00ae 02       		.uleb128 0x2
+ 141 00af 04       		.byte	0x4
+ 142 00b0 07       		.byte	0x7
+ 143 00b1 C6010000 		.4byte	.LASF16
+ 144 00b5 06       		.uleb128 0x6
+ 145 00b6 04       		.byte	0x4
+ 146 00b7 A7000000 		.4byte	0xa7
+ 147 00bb 07       		.uleb128 0x7
+ 148 00bc BB010000 		.4byte	.LASF20
+ 149 00c0 01       		.byte	0x1
+ 150 00c1 0F       		.byte	0xf
+ 151 00c2 00000000 		.4byte	.LFB63
+ 152 00c6 0E000000 		.4byte	.LFE63-.LFB63
+ 153 00ca 01       		.uleb128 0x1
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 4
+
+
+ 154 00cb 9C       		.byte	0x9c
+ 155 00cc 04010000 		.4byte	0x104
+ 156 00d0 08       		.uleb128 0x8
+ 157 00d1 73747200 		.ascii	"str\000"
+ 158 00d5 01       		.byte	0x1
+ 159 00d6 0F       		.byte	0xf
+ 160 00d7 B5000000 		.4byte	0xb5
+ 161 00db 00000000 		.4byte	.LLST0
+ 162 00df 09       		.uleb128 0x9
+ 163 00e0 06000000 		.4byte	.LVL1
+ 164 00e4 15010000 		.4byte	0x115
+ 165 00e8 F4000000 		.4byte	0xf4
+ 166 00ec 0A       		.uleb128 0xa
+ 167 00ed 01       		.uleb128 0x1
+ 168 00ee 50       		.byte	0x50
+ 169 00ef 03       		.uleb128 0x3
+ 170 00f0 F3       		.byte	0xf3
+ 171 00f1 01       		.uleb128 0x1
+ 172 00f2 50       		.byte	0x50
+ 173 00f3 00       		.byte	0
+ 174 00f4 0B       		.uleb128 0xb
+ 175 00f5 0C000000 		.4byte	.LVL2
+ 176 00f9 31010000 		.4byte	0x131
+ 177 00fd 0A       		.uleb128 0xa
+ 178 00fe 01       		.uleb128 0x1
+ 179 00ff 50       		.byte	0x50
+ 180 0100 01       		.uleb128 0x1
+ 181 0101 31       		.byte	0x31
+ 182 0102 00       		.byte	0
+ 183 0103 00       		.byte	0
+ 184 0104 0C       		.uleb128 0xc
+ 185 0105 70010000 		.4byte	.LASF21
+ 186 0109 05       		.byte	0x5
+ 187 010a 9606     		.2byte	0x696
+ 188 010c 10010000 		.4byte	0x110
+ 189 0110 0D       		.uleb128 0xd
+ 190 0111 76000000 		.4byte	0x76
+ 191 0115 0E       		.uleb128 0xe
+ 192 0116 A2000000 		.4byte	.LASF22
+ 193 011a 06       		.byte	0x6
+ 194 011b 8B       		.byte	0x8b
+ 195 011c 26010000 		.4byte	0x126
+ 196 0120 0F       		.uleb128 0xf
+ 197 0121 26010000 		.4byte	0x126
+ 198 0125 00       		.byte	0
+ 199 0126 06       		.uleb128 0x6
+ 200 0127 04       		.byte	0x4
+ 201 0128 2C010000 		.4byte	0x12c
+ 202 012c 10       		.uleb128 0x10
+ 203 012d 9B000000 		.4byte	0x9b
+ 204 0131 11       		.uleb128 0x11
+ 205 0132 A2010000 		.4byte	.LASF23
+ 206 0136 06       		.byte	0x6
+ 207 0137 8E       		.byte	0x8e
+ 208 0138 0F       		.uleb128 0xf
+ 209 0139 81000000 		.4byte	0x81
+ 210 013d 00       		.byte	0
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 5
+
+
+ 211 013e 00       		.byte	0
+ 212              		.section	.debug_abbrev,"",%progbits
+ 213              	.Ldebug_abbrev0:
+ 214 0000 01       		.uleb128 0x1
+ 215 0001 11       		.uleb128 0x11
+ 216 0002 01       		.byte	0x1
+ 217 0003 25       		.uleb128 0x25
+ 218 0004 0E       		.uleb128 0xe
+ 219 0005 13       		.uleb128 0x13
+ 220 0006 0B       		.uleb128 0xb
+ 221 0007 03       		.uleb128 0x3
+ 222 0008 0E       		.uleb128 0xe
+ 223 0009 1B       		.uleb128 0x1b
+ 224 000a 0E       		.uleb128 0xe
+ 225 000b 55       		.uleb128 0x55
+ 226 000c 17       		.uleb128 0x17
+ 227 000d 11       		.uleb128 0x11
+ 228 000e 01       		.uleb128 0x1
+ 229 000f 10       		.uleb128 0x10
+ 230 0010 17       		.uleb128 0x17
+ 231 0011 00       		.byte	0
+ 232 0012 00       		.byte	0
+ 233 0013 02       		.uleb128 0x2
+ 234 0014 24       		.uleb128 0x24
+ 235 0015 00       		.byte	0
+ 236 0016 0B       		.uleb128 0xb
+ 237 0017 0B       		.uleb128 0xb
+ 238 0018 3E       		.uleb128 0x3e
+ 239 0019 0B       		.uleb128 0xb
+ 240 001a 03       		.uleb128 0x3
+ 241 001b 0E       		.uleb128 0xe
+ 242 001c 00       		.byte	0
+ 243 001d 00       		.byte	0
+ 244 001e 03       		.uleb128 0x3
+ 245 001f 16       		.uleb128 0x16
+ 246 0020 00       		.byte	0
+ 247 0021 03       		.uleb128 0x3
+ 248 0022 0E       		.uleb128 0xe
+ 249 0023 3A       		.uleb128 0x3a
+ 250 0024 0B       		.uleb128 0xb
+ 251 0025 3B       		.uleb128 0x3b
+ 252 0026 0B       		.uleb128 0xb
+ 253 0027 49       		.uleb128 0x49
+ 254 0028 13       		.uleb128 0x13
+ 255 0029 00       		.byte	0
+ 256 002a 00       		.byte	0
+ 257 002b 04       		.uleb128 0x4
+ 258 002c 24       		.uleb128 0x24
+ 259 002d 00       		.byte	0
+ 260 002e 0B       		.uleb128 0xb
+ 261 002f 0B       		.uleb128 0xb
+ 262 0030 3E       		.uleb128 0x3e
+ 263 0031 0B       		.uleb128 0xb
+ 264 0032 03       		.uleb128 0x3
+ 265 0033 08       		.uleb128 0x8
+ 266 0034 00       		.byte	0
+ 267 0035 00       		.byte	0
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 6
+
+
+ 268 0036 05       		.uleb128 0x5
+ 269 0037 16       		.uleb128 0x16
+ 270 0038 00       		.byte	0
+ 271 0039 03       		.uleb128 0x3
+ 272 003a 0E       		.uleb128 0xe
+ 273 003b 3A       		.uleb128 0x3a
+ 274 003c 0B       		.uleb128 0xb
+ 275 003d 3B       		.uleb128 0x3b
+ 276 003e 05       		.uleb128 0x5
+ 277 003f 49       		.uleb128 0x49
+ 278 0040 13       		.uleb128 0x13
+ 279 0041 00       		.byte	0
+ 280 0042 00       		.byte	0
+ 281 0043 06       		.uleb128 0x6
+ 282 0044 0F       		.uleb128 0xf
+ 283 0045 00       		.byte	0
+ 284 0046 0B       		.uleb128 0xb
+ 285 0047 0B       		.uleb128 0xb
+ 286 0048 49       		.uleb128 0x49
+ 287 0049 13       		.uleb128 0x13
+ 288 004a 00       		.byte	0
+ 289 004b 00       		.byte	0
+ 290 004c 07       		.uleb128 0x7
+ 291 004d 2E       		.uleb128 0x2e
+ 292 004e 01       		.byte	0x1
+ 293 004f 3F       		.uleb128 0x3f
+ 294 0050 19       		.uleb128 0x19
+ 295 0051 03       		.uleb128 0x3
+ 296 0052 0E       		.uleb128 0xe
+ 297 0053 3A       		.uleb128 0x3a
+ 298 0054 0B       		.uleb128 0xb
+ 299 0055 3B       		.uleb128 0x3b
+ 300 0056 0B       		.uleb128 0xb
+ 301 0057 27       		.uleb128 0x27
+ 302 0058 19       		.uleb128 0x19
+ 303 0059 11       		.uleb128 0x11
+ 304 005a 01       		.uleb128 0x1
+ 305 005b 12       		.uleb128 0x12
+ 306 005c 06       		.uleb128 0x6
+ 307 005d 40       		.uleb128 0x40
+ 308 005e 18       		.uleb128 0x18
+ 309 005f 9742     		.uleb128 0x2117
+ 310 0061 19       		.uleb128 0x19
+ 311 0062 01       		.uleb128 0x1
+ 312 0063 13       		.uleb128 0x13
+ 313 0064 00       		.byte	0
+ 314 0065 00       		.byte	0
+ 315 0066 08       		.uleb128 0x8
+ 316 0067 05       		.uleb128 0x5
+ 317 0068 00       		.byte	0
+ 318 0069 03       		.uleb128 0x3
+ 319 006a 08       		.uleb128 0x8
+ 320 006b 3A       		.uleb128 0x3a
+ 321 006c 0B       		.uleb128 0xb
+ 322 006d 3B       		.uleb128 0x3b
+ 323 006e 0B       		.uleb128 0xb
+ 324 006f 49       		.uleb128 0x49
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 7
+
+
+ 325 0070 13       		.uleb128 0x13
+ 326 0071 02       		.uleb128 0x2
+ 327 0072 17       		.uleb128 0x17
+ 328 0073 00       		.byte	0
+ 329 0074 00       		.byte	0
+ 330 0075 09       		.uleb128 0x9
+ 331 0076 898201   		.uleb128 0x4109
+ 332 0079 01       		.byte	0x1
+ 333 007a 11       		.uleb128 0x11
+ 334 007b 01       		.uleb128 0x1
+ 335 007c 31       		.uleb128 0x31
+ 336 007d 13       		.uleb128 0x13
+ 337 007e 01       		.uleb128 0x1
+ 338 007f 13       		.uleb128 0x13
+ 339 0080 00       		.byte	0
+ 340 0081 00       		.byte	0
+ 341 0082 0A       		.uleb128 0xa
+ 342 0083 8A8201   		.uleb128 0x410a
+ 343 0086 00       		.byte	0
+ 344 0087 02       		.uleb128 0x2
+ 345 0088 18       		.uleb128 0x18
+ 346 0089 9142     		.uleb128 0x2111
+ 347 008b 18       		.uleb128 0x18
+ 348 008c 00       		.byte	0
+ 349 008d 00       		.byte	0
+ 350 008e 0B       		.uleb128 0xb
+ 351 008f 898201   		.uleb128 0x4109
+ 352 0092 01       		.byte	0x1
+ 353 0093 11       		.uleb128 0x11
+ 354 0094 01       		.uleb128 0x1
+ 355 0095 31       		.uleb128 0x31
+ 356 0096 13       		.uleb128 0x13
+ 357 0097 00       		.byte	0
+ 358 0098 00       		.byte	0
+ 359 0099 0C       		.uleb128 0xc
+ 360 009a 34       		.uleb128 0x34
+ 361 009b 00       		.byte	0
+ 362 009c 03       		.uleb128 0x3
+ 363 009d 0E       		.uleb128 0xe
+ 364 009e 3A       		.uleb128 0x3a
+ 365 009f 0B       		.uleb128 0xb
+ 366 00a0 3B       		.uleb128 0x3b
+ 367 00a1 05       		.uleb128 0x5
+ 368 00a2 49       		.uleb128 0x49
+ 369 00a3 13       		.uleb128 0x13
+ 370 00a4 3F       		.uleb128 0x3f
+ 371 00a5 19       		.uleb128 0x19
+ 372 00a6 3C       		.uleb128 0x3c
+ 373 00a7 19       		.uleb128 0x19
+ 374 00a8 00       		.byte	0
+ 375 00a9 00       		.byte	0
+ 376 00aa 0D       		.uleb128 0xd
+ 377 00ab 35       		.uleb128 0x35
+ 378 00ac 00       		.byte	0
+ 379 00ad 49       		.uleb128 0x49
+ 380 00ae 13       		.uleb128 0x13
+ 381 00af 00       		.byte	0
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 8
+
+
+ 382 00b0 00       		.byte	0
+ 383 00b1 0E       		.uleb128 0xe
+ 384 00b2 2E       		.uleb128 0x2e
+ 385 00b3 01       		.byte	0x1
+ 386 00b4 3F       		.uleb128 0x3f
+ 387 00b5 19       		.uleb128 0x19
+ 388 00b6 03       		.uleb128 0x3
+ 389 00b7 0E       		.uleb128 0xe
+ 390 00b8 3A       		.uleb128 0x3a
+ 391 00b9 0B       		.uleb128 0xb
+ 392 00ba 3B       		.uleb128 0x3b
+ 393 00bb 0B       		.uleb128 0xb
+ 394 00bc 27       		.uleb128 0x27
+ 395 00bd 19       		.uleb128 0x19
+ 396 00be 3C       		.uleb128 0x3c
+ 397 00bf 19       		.uleb128 0x19
+ 398 00c0 01       		.uleb128 0x1
+ 399 00c1 13       		.uleb128 0x13
+ 400 00c2 00       		.byte	0
+ 401 00c3 00       		.byte	0
+ 402 00c4 0F       		.uleb128 0xf
+ 403 00c5 05       		.uleb128 0x5
+ 404 00c6 00       		.byte	0
+ 405 00c7 49       		.uleb128 0x49
+ 406 00c8 13       		.uleb128 0x13
+ 407 00c9 00       		.byte	0
+ 408 00ca 00       		.byte	0
+ 409 00cb 10       		.uleb128 0x10
+ 410 00cc 26       		.uleb128 0x26
+ 411 00cd 00       		.byte	0
+ 412 00ce 49       		.uleb128 0x49
+ 413 00cf 13       		.uleb128 0x13
+ 414 00d0 00       		.byte	0
+ 415 00d1 00       		.byte	0
+ 416 00d2 11       		.uleb128 0x11
+ 417 00d3 2E       		.uleb128 0x2e
+ 418 00d4 01       		.byte	0x1
+ 419 00d5 3F       		.uleb128 0x3f
+ 420 00d6 19       		.uleb128 0x19
+ 421 00d7 03       		.uleb128 0x3
+ 422 00d8 0E       		.uleb128 0xe
+ 423 00d9 3A       		.uleb128 0x3a
+ 424 00da 0B       		.uleb128 0xb
+ 425 00db 3B       		.uleb128 0x3b
+ 426 00dc 0B       		.uleb128 0xb
+ 427 00dd 27       		.uleb128 0x27
+ 428 00de 19       		.uleb128 0x19
+ 429 00df 3C       		.uleb128 0x3c
+ 430 00e0 19       		.uleb128 0x19
+ 431 00e1 00       		.byte	0
+ 432 00e2 00       		.byte	0
+ 433 00e3 00       		.byte	0
+ 434              		.section	.debug_loc,"",%progbits
+ 435              	.Ldebug_loc0:
+ 436              	.LLST0:
+ 437 0000 00000000 		.4byte	.LVL0
+ 438 0004 05000000 		.4byte	.LVL1-1
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 9
+
+
+ 439 0008 0100     		.2byte	0x1
+ 440 000a 50       		.byte	0x50
+ 441 000b 05000000 		.4byte	.LVL1-1
+ 442 000f 0E000000 		.4byte	.LFE63
+ 443 0013 0400     		.2byte	0x4
+ 444 0015 F3       		.byte	0xf3
+ 445 0016 01       		.uleb128 0x1
+ 446 0017 50       		.byte	0x50
+ 447 0018 9F       		.byte	0x9f
+ 448 0019 00000000 		.4byte	0
+ 449 001d 00000000 		.4byte	0
+ 450              		.section	.debug_aranges,"",%progbits
+ 451 0000 1C000000 		.4byte	0x1c
+ 452 0004 0200     		.2byte	0x2
+ 453 0006 00000000 		.4byte	.Ldebug_info0
+ 454 000a 04       		.byte	0x4
+ 455 000b 00       		.byte	0
+ 456 000c 0000     		.2byte	0
+ 457 000e 0000     		.2byte	0
+ 458 0010 00000000 		.4byte	.LFB63
+ 459 0014 0E000000 		.4byte	.LFE63-.LFB63
+ 460 0018 00000000 		.4byte	0
+ 461 001c 00000000 		.4byte	0
+ 462              		.section	.debug_ranges,"",%progbits
+ 463              	.Ldebug_ranges0:
+ 464 0000 00000000 		.4byte	.LFB63
+ 465 0004 0E000000 		.4byte	.LFE63
+ 466 0008 00000000 		.4byte	0
+ 467 000c 00000000 		.4byte	0
+ 468              		.section	.debug_line,"",%progbits
+ 469              	.Ldebug_line0:
+ 470 0000 6C010000 		.section	.debug_str,"MS",%progbits,1
+ 470      02005501 
+ 470      00000201 
+ 470      FB0E0D00 
+ 470      01010101 
+ 471              	.LASF6:
+ 472 0000 6C6F6E67 		.ascii	"long long int\000"
+ 472      206C6F6E 
+ 472      6720696E 
+ 472      7400
+ 473              	.LASF3:
+ 474 000e 73686F72 		.ascii	"short unsigned int\000"
+ 474      7420756E 
+ 474      7369676E 
+ 474      65642069 
+ 474      6E7400
+ 475              	.LASF8:
+ 476 0021 756E7369 		.ascii	"unsigned int\000"
+ 476      676E6564 
+ 476      20696E74 
+ 476      00
+ 477              	.LASF19:
+ 478 002e 433A5C55 		.ascii	"C:\\Users\\kazuma\\Documents\\PSoC Creator\\water_s"
+ 478      73657273 
+ 478      5C6B617A 
+ 478      756D615C 
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 10
+
+
+ 478      446F6375 
+ 479 005c 656E736F 		.ascii	"ensor\\Design01.cydsn\000"
+ 479      725C4465 
+ 479      7369676E 
+ 479      30312E63 
+ 479      7964736E 
+ 480              	.LASF10:
+ 481 0071 696E7433 		.ascii	"int32_t\000"
+ 481      325F7400 
+ 482              	.LASF5:
+ 483 0079 6C6F6E67 		.ascii	"long unsigned int\000"
+ 483      20756E73 
+ 483      69676E65 
+ 483      6420696E 
+ 483      7400
+ 484              	.LASF7:
+ 485 008b 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 485      206C6F6E 
+ 485      6720756E 
+ 485      7369676E 
+ 485      65642069 
+ 486              	.LASF22:
+ 487 00a2 55415254 		.ascii	"UART_1_PutString\000"
+ 487      5F315F50 
+ 487      75745374 
+ 487      72696E67 
+ 487      00
+ 488              	.LASF14:
+ 489 00b3 63686172 		.ascii	"char8\000"
+ 489      3800
+ 490              	.LASF17:
+ 491 00b9 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 491      4320342E 
+ 491      392E3320 
+ 491      32303135 
+ 491      30333033 
+ 492 00ec 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
+ 492      20726576 
+ 492      6973696F 
+ 492      6E203232 
+ 492      31323230 
+ 493 011f 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 493      66756E63 
+ 493      74696F6E 
+ 493      2D736563 
+ 493      74696F6E 
+ 494              	.LASF1:
+ 495 0147 756E7369 		.ascii	"unsigned char\000"
+ 495      676E6564 
+ 495      20636861 
+ 495      7200
+ 496              	.LASF15:
+ 497 0155 63686172 		.ascii	"char\000"
+ 497      00
+ 498              	.LASF4:
+ 499 015a 6C6F6E67 		.ascii	"long int\000"
+ 499      20696E74 
+ARM GAS  C:\Users\kazuma\AppData\Local\Temp\ccrfaEc4.s 			page 11
+
+
+ 499      00
+ 500              	.LASF13:
+ 501 0163 646F7562 		.ascii	"double\000"
+ 501      6C6500
+ 502              	.LASF11:
+ 503 016a 75696E74 		.ascii	"uint8\000"
+ 503      3800
+ 504              	.LASF21:
+ 505 0170 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 505      52784275 
+ 505      66666572 
+ 505      00
+ 506              	.LASF0:
+ 507 017d 7369676E 		.ascii	"signed char\000"
+ 507      65642063 
+ 507      68617200 
+ 508              	.LASF9:
+ 509 0189 5F5F696E 		.ascii	"__int32_t\000"
+ 509      7433325F 
+ 509      7400
+ 510              	.LASF18:
+ 511 0193 7573625F 		.ascii	"usb_io.c\000"
+ 511      696F2E63 
+ 511      00
+ 512              	.LASF12:
+ 513 019c 666C6F61 		.ascii	"float\000"
+ 513      7400
+ 514              	.LASF23:
+ 515 01a2 55415254 		.ascii	"UART_1_PutCRLF\000"
+ 515      5F315F50 
+ 515      75744352 
+ 515      4C4600
+ 516              	.LASF2:
+ 517 01b1 73686F72 		.ascii	"short int\000"
+ 517      7420696E 
+ 517      7400
+ 518              	.LASF20:
+ 519 01bb 7573625F 		.ascii	"usb_output\000"
+ 519      6F757470 
+ 519      757400
+ 520              	.LASF16:
+ 521 01c6 73697A65 		.ascii	"sizetype\000"
+ 521      74797065 
+ 521      00
+ 522              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
